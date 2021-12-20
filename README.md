@@ -3,4 +3,4 @@ My personal portfolio
 
 Here is a list of projects I have completed:
 
-[Link to Google](https://www.google.com)
+[PageRank Algorithm](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
