@@ -19,10 +19,16 @@ Libraries and skills used:
 
 ## [PCA_LSI](https://github.com/zach-chase/Personal-Portfolio/tree/main/PCA_LSI)
 This project explores the basics of Principal Component Analysis (PCA) and Latent Semantic Indexing (LSI). Here we analyze the Iris dataset and compare State of the Union addresses to determine similarity.
-Libraries and used:
+Libraries and skills used:
 * PCA
 * LSI
 * Sklearn
 * Scipy
 * Numpy
 * Matplotlib
+
+## [Sklearn_Titanic](https://github.com/zach-chase/Personal-Portfolio/tree/main/Sklearn_Titanic)
+Libraries and skills used:
+* Numpy
+* Pandas
+* Sklearn
