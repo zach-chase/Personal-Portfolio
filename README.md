@@ -9,6 +9,9 @@ Libraries and skills used:
 * Numpy
 * Csv
 * PageRank algorithm
+
+## [Monte Carlo Integration](https://github.com/zach-chase/Personal-Portfolio/tree/main/MonteCarloIntegration)
+
 ## [PCA_LSI](https://github.com/zach-chase/Personal-Portfolio/tree/main/PCA_LSI)
 This project explores the basics of Principal Component Analysis (PCA) and Latent Semantic Indexing (LSI). Here we analyze the Iris dataset and compare State of the Union addresses to determine similarity.
 Libraries and used:
