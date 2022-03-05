@@ -5,10 +5,12 @@ Here is a list of projects I have completed:
 
 ## [Wordle](https://github.com/zach-chase/Personal-Portfolio/tree/main/Wordle)
 Jumping on the 2022 trend of Wordle, this project explores the basics of the word guessing game in two core ways:
-* 1. play
-* * Create a game of Wordle to play, while giving suggestions of the next best word to use
-* 2. solve
-* * Solve a game of Wordle by inputing your guessed word and the resulting pattern to receive a suggested word to guess
+1. play
+* Create a game of Wordle to play, while giving suggestions of the next best word to use
+2. solve
+* Solve a game of Wordle by inputing your guessed word and the resulting pattern to receive a suggested word to guess
+
+The example of running the play function is seen below.
 
 
 <p align="center">
