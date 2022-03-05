@@ -8,7 +8,7 @@ Jumping on the 2022 trend of wordle, this project explores the basics of the wor
 
 
 <p align="center">
-  <img src=![playWordle](https://user-images.githubusercontent.com/65054541/156868304-59d789dd-c58c-40f4-8f26-3b3fce6008cf.gif) />
+  <img src="![playWordle](https://user-images.githubusercontent.com/65054541/156868304-59d789dd-c58c-40f4-8f26-3b3fce6008cf.gif)" />
 </p>
 
 
