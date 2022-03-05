@@ -6,8 +6,10 @@ Here is a list of projects I have completed:
 ## [Wordle](https://github.com/zach-chase/Personal-Portfolio/tree/main/Wordle)
 Jumping on the 2022 trend of wordle, this project explores the basics of the word guessing game by creating a simulation to play, and giving solutions to the game.
 
-![play](https://user-images.githubusercontent.com/65054541/156703379-acd5c3c2-1e97-47f4-98d6-77383263b7c3.gif)
 
+<p align="center">
+  <img src=![playWordle](https://user-images.githubusercontent.com/65054541/156868304-59d789dd-c58c-40f4-8f26-3b3fce6008cf.gif) />
+</p>
 
 
 ## [PageRank Algorithm](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
