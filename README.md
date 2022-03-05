@@ -4,12 +4,21 @@ My personal portfolio
 Here is a list of projects I have completed:
 
 ## [Wordle](https://github.com/zach-chase/Personal-Portfolio/tree/main/Wordle)
-Jumping on the 2022 trend of wordle, this project explores the basics of the word guessing game by creating a simulation to play, and giving solutions to the game.
+Jumping on the 2022 trend of Wordle, this project explores the basics of the word guessing game in two core ways:
+* 1. play
+* * Create a game of Wordle to play, while giving suggestions of the next best word to use
+* 2. solve
+* * Solve a game of Wordle by inputing your guessed word and the resulting pattern to receive a suggested word to guess
 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/65054541/156868304-59d789dd-c58c-40f4-8f26-3b3fce6008cf.gif" />
 </p>
+
+Libraries and skills used:
+* argparse
+* json
+* defaultdict
 
 
 ## [PageRank Algorithm](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
