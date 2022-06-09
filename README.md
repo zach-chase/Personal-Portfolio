@@ -3,6 +3,12 @@ My personal portfolio
 
 Here is a list of projects I have completed:
 
+## [Iris](https://github.com/zach-chase/Personal-Portfolio/tree/main/Iris)
+Obligatory data exploration, data mining, and clustering with the Iris dataset. This particular project is a combination of three smaller projects I completed and compiled into one single project. Libraries used:
+* pandas
+* sklearn
+* autoviz
+
 ## [Wordle](https://github.com/zach-chase/Personal-Portfolio/tree/main/Wordle)
 Jumping on the 2022 trend of Wordle, this project explores the basics of the word guessing game in two core ways:
 1. play
