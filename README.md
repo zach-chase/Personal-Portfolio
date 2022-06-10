@@ -58,3 +58,11 @@ Libraries and skills used:
 * Numpy
 * Pandas
 * Sklearn
+
+# Project ideas:
+* Facial Recognition
+* Sudoku Solver
+* Fantasy Football
+* Spark
+* Simplex
+* Titanic (sklearn guide)
