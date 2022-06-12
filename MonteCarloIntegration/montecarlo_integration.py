@@ -17,12 +17,16 @@ def ball_volume(n, N=10000):
 
     Returns:
         (float): An estimate for the volume of the n-dimensional unit ball.
+        
+    Example:
+        >>> ball_volume(3)    # Estimate volume of 3-dimensional unit ball
+        4.1936                # The true value is 4.18879
     """
     
     #Find N random points in n-D Domain
     points = np.random.uniform(-1, 1, (n,N))
     
-    #Determin how many are in the ball
+    #Determine how many are in the ball
     length = la.norm(points, axis=0)
     num_within = np.count_nonzero(length < 1)
     
@@ -51,7 +55,7 @@ def mc_integrate1d(f, a, b, N=10000):
     #Find uniform points in range (a,b)
     points = np.random.uniform(a,b,N)
     
-    #Imput points into the function
+    #Input points into the function
     outputs = f(points)
     
     #Estimate the integral
@@ -86,13 +90,13 @@ def mc_integrate(f, mins, maxs, N=10000):
     #Determine the sum of points
     points = np.sum(f((np.random.random((max_Values.size, N)).T*(max_Values-min_Values)+min_Values).T))
     
-    #Calculate valume
+    #Calculate volume
     volume = np.product(max_Values-min_Values)
     
     ##Return approximation of integral
     return volume*points/N
 
-def prob4():
+def integration_error():
     """Let n=4 and Omega = [-3/2,3/4]x[0,1]x[0,1/2]x[0,1].
     - Define the joint distribution f of n standard normal random variables.
     - Use SciPy to integrate f over Omega.
@@ -130,4 +134,3 @@ def prob4():
     plt.suptitle("Monte Carlo Integration Error")
     plt.legend()
     plt.show()
-    return
