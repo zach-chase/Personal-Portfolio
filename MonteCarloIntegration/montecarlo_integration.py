@@ -6,6 +6,7 @@ from scipy import stats
 import numpy as np
 from scipy import linalg as la
 from matplotlib import pyplot as plt
+from matplotlib.animation import FuncAnimation
 
 def ball_volume(n, N=10000):
     """Estimate the volume of the n-dimensional unit ball.
@@ -32,7 +33,51 @@ def ball_volume(n, N=10000):
     
     #Return an estimate of the volume
     return 2**n*num_within/N
+
+def animated_circle():
+    """
+    Create .gif file to demonstrate process of estimating the value of pi using monte
+    carlo methods
+    """
     
+    # Define function for circle
+    theta = np.linspace(0, 2*np.pi, 150)
+    a = np.cos(theta)
+    b = np.sin(theta)
+    
+    
+    def update(n):
+        """
+        Update function to plot during animation sequence
+
+        """
+        
+        # Define random uniform points in box around unit circle
+        points = np.random.uniform(-1, 1, size=(2, n))
+        
+        # Find points inside circle and outside circle and estimate pi from points
+        inside_circle = points[:, np.where(la.norm(points, axis=0) < 1)]
+        outside_circle = points[:, np.where(la.norm(points, axis=0) > 1)]
+        pi_estimation = 4*inside_circle[1].size/n
+
+        # Plot circle, and points inside and outside of circle
+        plt.plot(a, b, color = 'black', linewidth=.5)
+        plt.plot(inside_circle[0, :], inside_circle[1, :], marker='.', markersize=1,
+                 linewidth=0, color='blue')
+        plt.plot(outside_circle[0, :], outside_circle[1, :], marker='.',markersize=1,
+                 linewidth=0, color='red')
+        
+        # Update title and limits
+        plt.title(r"$n = {}, \pi \approx {:.3f}$".format(n, pi_estimation))
+        plt.xlim(-1, 1)
+        plt.ylim(-1, 1)
+    
+    
+    nvec = [10, 25, 50, 100, 250, 500, 1000, 2000, 3000, 5000, 8000, 10000, 20000]
+    fig = plt.figure(figsize=(5, 5))
+    ani = FuncAnimation(fig, update, frames=nvec)
+    ani.save("animated_circle.gif", writer='imagemagick')
+
 
 def mc_integrate1d(f, a, b, N=10000):
     """Approximate the integral of f on the interval [a,b].
@@ -58,8 +103,11 @@ def mc_integrate1d(f, a, b, N=10000):
     #Input points into the function
     outputs = f(points)
     
+    print(points)
+    
     #Estimate the integral
     return (b-a)*(1/N)*np.sum(outputs)
+
 
 def mc_integrate(f, mins, maxs, N=10000):
     """Approximate the integral of f over the box defined by mins and maxs.
@@ -134,3 +182,7 @@ def integration_error():
     plt.suptitle("Monte Carlo Integration Error")
     plt.legend()
     plt.show()
+
+
+
+    
