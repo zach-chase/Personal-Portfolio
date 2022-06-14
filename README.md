@@ -43,6 +43,9 @@ Libraries and skills used:
 * Numpy
 * Matplotlib
 
+## [Image Segmentation](https://github.com/zach-chase/Personal-Portfolio/tree/main/ImageSegmentation)
+Application of graph theory
+
 ## [PCA_LSI](https://github.com/zach-chase/Personal-Portfolio/tree/main/PCA_LSI)
 This project explores the basics of Principal Component Analysis (PCA) and Latent Semantic Indexing (LSI). Here we analyze the Iris dataset and compare State of the Union addresses to determine similarity.
 Libraries and skills used:
