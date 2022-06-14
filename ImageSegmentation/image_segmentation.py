@@ -10,7 +10,6 @@ import scipy.sparse
 import scipy.sparse.linalg
 
 
-# Problem 1
 def laplacian(A):
     """Compute the Laplacian matrix of the graph G that has adjacency matrix A.
 
@@ -40,7 +39,6 @@ def laplacian(A):
     return L
 
 
-# Problem 2
 def connectivity(A, tol=1e-8):
     """Compute the number of connected components in the graph G and its
     algebraic connectivity, given the adjacency matrix A of G.
@@ -105,11 +103,9 @@ def get_neighbors(index, radius, height, width):
     return (X[mask] + Y[mask]*width).astype(np.int), R[mask]
 
 
-# Problems 3-6
 class ImageSegmenter:
     """Class for storing and segmenting images."""
 
-    # Problem 3
     def __init__(self, filename):
         """Read the image file. Store its brightness values as a flat array."""
         
@@ -127,8 +123,6 @@ class ImageSegmenter:
             self.ravel = np.ravel(self.brightness)
             
         
-
-    # Problem 3
     def show_original(self):
         """Display the original image."""
         
@@ -144,7 +138,6 @@ class ImageSegmenter:
         
         return
 
-    # Problem 4
     def adjacency(self, r=5., sigma_B2=.02, sigma_X2=3.):
         """Compute the Adjacency and Degree matrices for the image graph."""
         
@@ -169,7 +162,6 @@ class ImageSegmenter:
 
         return A.tocsc(), D
 
-    # Problem 5
     def cut(self, A, D):
         """Compute the boolean mask that segments the image."""
         
@@ -193,7 +185,7 @@ class ImageSegmenter:
         
         return mask
 
-    # Problem 6
+
     def segment(self, r=5., sigma_B=.02, sigma_X=3.):
         """Display the original image and its segments."""
         
