@@ -72,3 +72,4 @@ Libraries and skills used:
 * Spark
 * Simplex
 * Titanic (sklearn guide)
+* Reinforcement Learning
