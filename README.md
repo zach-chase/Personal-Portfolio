@@ -73,3 +73,4 @@ Libraries and skills used:
 * Simplex
 * Titanic (sklearn guide)
 * Reinforcement Learning
+* Git
