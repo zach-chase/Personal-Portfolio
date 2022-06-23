@@ -65,6 +65,9 @@ Libraries and skills used:
 * Pandas
 * Sklearn
 
+## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/snake)
+
+
 # Project ideas:
 * Facial Recognition
 * Sudoku Solver
