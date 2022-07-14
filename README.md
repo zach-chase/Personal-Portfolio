@@ -67,7 +67,7 @@ Libraries and skills used:
 
 ## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/snake)
 
-## [AudioSimilarity]
+## [AudioSimilarity](https://github.com/zach-chase/Personal-Portfolio/tree/main/AudioSimilarity)
 
 
 # Project ideas:
