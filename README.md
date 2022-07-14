@@ -67,6 +67,8 @@ Libraries and skills used:
 
 ## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/snake)
 
+## [AudioSimilarity]
+
 
 # Project ideas:
 * Facial Recognition
