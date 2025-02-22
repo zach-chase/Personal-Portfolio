@@ -14,7 +14,7 @@ Jumping on the 2022 trend of Wordle, this project explores the basics of the wor
 1. play
 * Create a game of Wordle to play, while giving suggestions of the next best word to use
 2. solve
-* Solve a game of Wordle by inputing your guessed word and the resulting pattern to receive a suggested word to guess
+* Solve a game of Wordle by inputting your guessed word and the resulting pattern to receive a suggested word to guess
 
 The example of running the play function is seen below.
 
@@ -30,7 +30,7 @@ Libraries and skills used:
 
 
 ## [PageRank Algorithm](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
-One of my very first projects in Python, this project implements the PageRank Algorithm, which was developed in 1998 by Google's founders Sergey Brin and Larry Page to rank websites. My project implements their algorithm and applys it to rank websites and NCAA Men's Basketball Teams
+One of my very first projects in Python, this project implements the PageRank Algorithm, which was developed in 1998 by Google's founders Sergey Brin and Larry Page to rank websites. My project implements their algorithm and applies it to rank websites and NCAA Men's Basketball Teams
 Libraries and skills used:
 * Numpy
 * Csv
@@ -65,7 +65,7 @@ Libraries and skills used:
 * Pandas
 * Sklearn
 
-## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/snake)
+## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/Snake)
 
 <div align="center">
 
@@ -93,5 +93,4 @@ Libraries and skills used:
 * Spark
 * Simplex
 * Titanic (sklearn guide)
-* Reinforcement Learning - with snake (pygame)
 * Git
