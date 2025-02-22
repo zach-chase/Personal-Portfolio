@@ -66,6 +66,7 @@ Libraries and skills used:
 * Sklearn
 
 ## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/snake)
+![Early Game](https://github.com/user-attachments/assets/ffb4b735-9c5c-43b0-9fc5-1008153740dd)
 
 ## [AudioSimilarity](https://github.com/zach-chase/Personal-Portfolio/tree/main/AudioSimilarity)
 
