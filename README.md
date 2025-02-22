@@ -66,7 +66,22 @@ Libraries and skills used:
 * Sklearn
 
 ## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/snake)
-![Early Game](https://github.com/user-attachments/assets/ffb4b735-9c5c-43b0-9fc5-1008153740dd)
+
+<div align="center">
+
+  <table>
+    <tr>
+      <th>Early Learning</th>
+      <th>Developed Learning</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/ffb4b735-9c5c-43b0-9fc5-1008153740dd" width="400" alt="Early Game"></td>
+      <td><img src="https://github.com/user-attachments/assets/ab09c6e2-2f6b-41d3-8a17-9ecf58eb70b3" width="400" alt="Late Game"></td>
+    </tr>
+  </table>
+
+</div>
+
 
 ## [AudioSimilarity](https://github.com/zach-chase/Personal-Portfolio/tree/main/AudioSimilarity)
 
