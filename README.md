@@ -3,6 +3,25 @@ My personal portfolio
 
 Here is a list of projects I have completed:
 
+## [Snake AI with Q-Learning](https://github.com/zach-chase/Personal-Portfolio/tree/main/Snake)
+
+Used Q-learning and deep reinforcement learning to develop an AI capable of mastering Snake. The agent continuously refines its strategy, learning from past games to make smarter, reward-maximizing moves.
+
+<div align="center">
+
+  <table>
+    <tr>
+      <th>Early Learning</th>
+      <th>Developed Learning</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/ffb4b735-9c5c-43b0-9fc5-1008153740dd" width="400" alt="Early Game"></td>
+      <td><img src="https://github.com/user-attachments/assets/ab09c6e2-2f6b-41d3-8a17-9ecf58eb70b3" width="400" alt="Late Game"></td>
+    </tr>
+  </table>
+
+</div>
+
 ## [Iris](https://github.com/zach-chase/Personal-Portfolio/tree/main/Iris)
 Obligatory data exploration, data mining, and clustering with the Iris dataset. This particular project is a combination of three smaller projects I completed and compiled into one single project. Libraries used:
 * pandas
@@ -64,23 +83,6 @@ Libraries and skills used:
 * Numpy
 * Pandas
 * Sklearn
-
-## [Snake](https://github.com/zach-chase/Personal-Portfolio/tree/main/Snake)
-
-<div align="center">
-
-  <table>
-    <tr>
-      <th>Early Learning</th>
-      <th>Developed Learning</th>
-    </tr>
-    <tr>
-      <td><img src="https://github.com/user-attachments/assets/ffb4b735-9c5c-43b0-9fc5-1008153740dd" width="400" alt="Early Game"></td>
-      <td><img src="https://github.com/user-attachments/assets/ab09c6e2-2f6b-41d3-8a17-9ecf58eb70b3" width="400" alt="Late Game"></td>
-    </tr>
-  </table>
-
-</div>
 
 
 ## [AudioSimilarity](https://github.com/zach-chase/Personal-Portfolio/tree/main/AudioSimilarity)
