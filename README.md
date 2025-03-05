@@ -1,7 +1,6 @@
-# Personal-Portfolio
-My personal portfolio
+<h1 align="center">🚀 Personal Portfolio 📊</h1>
 
-Here is a list of projects I have completed:
+Welcome to my portfolio! Here's a collection of projects demonstrating my skills in machine learning, data analysis, and more.
 
 ## [Snake AI with Q-Learning](https://github.com/zach-chase/Personal-Portfolio/tree/main/Snake)
 
