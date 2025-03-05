@@ -5,7 +5,13 @@ Here is a list of projects I have completed:
 
 ## [Snake AI with Q-Learning](https://github.com/zach-chase/Personal-Portfolio/tree/main/Snake)
 
-Used Q-learning and deep reinforcement learning to develop an AI capable of mastering Snake. The agent continuously refines its strategy, learning from past games to make smarter, reward-maximizing moves.
+Developed a Python-based AI capable of mastering the game of Snake using Q-learning and deep reinforcement learning. The agent continuously refines its strategy, learning from past games to make smarter, reward-maximizing moves.
+
+Libraries Used:
+* PyTorch
+* NumPy
+* Matplotlib
+* Pygame
 
 <div align="center">
 
