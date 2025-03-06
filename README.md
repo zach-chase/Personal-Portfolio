@@ -27,6 +27,10 @@ Libraries Used:
 
 </div>
 
+## [NHL In Game Probability Metric](https://github.com/zach-chase/Personal-Portfolio/tree/main/NHL)
+
+This is my undergraduate capstone project for Applied Mathematics at Brigham Young University, focusing on predicting in-game win probabilities for NHL games using real-time data and machine learning. The paper explores the challenges of predicting hockey game outcomes, using data from the NHL API to build a model for calculating in-game win probabilities. 
+
 ## [Iris](https://github.com/zach-chase/Personal-Portfolio/tree/main/Iris)
 Obligatory data exploration, data mining, and clustering with the Iris dataset. This particular project is a combination of three smaller projects I completed and compiled into one single project. Libraries used:
 * pandas
