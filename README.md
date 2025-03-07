@@ -42,11 +42,28 @@ Skills/ML Models used:
   * Support Vector Machines    
   * Random Forests
 
-## [Iris](https://github.com/zach-chase/Personal-Portfolio/tree/main/Iris)
-Obligatory data exploration, data mining, and clustering with the Iris dataset. This particular project is a combination of three smaller projects I completed and compiled into one single project. Libraries used:
-* pandas
-* sklearn
-* autoviz
+## [Iris Dataset Unsupervised Classification](https://github.com/zach-chase/Personal-Portfolio/tree/main/Iris)
+This project explores the Iris dataset through the lens of unsupervised machine learning, specifically focusing on clustering techniques. We begin with a thorough exploratory data analysis (EDA) using automated and interactive tools to understand the dataset's characteristics. Afterwards, Principal Component Analysis (PCA) is used to reduce dimensionality and enhance clustering efficiency. The primary objective is to evaluate and compare the performance of K-Means, Agglomerative Clustering, and Gaussian Mixture Models in identifying natural groupings within the Iris data. This analysis demonstrates the success of these unsupervised methods in categorizing Iris species based solely on their inherent features.
+
+**Tools and Techniques Used:**
+
+* **Exploratory Data Analysis (EDA):**
+    * AutoViz
+    * Pandas Profiling
+    * Sweetviz
+* **Data Visualization:**
+    * Matplotlib
+    * Seaborn
+    * Plotly
+* **Dimension Reduction:**
+    * Principal Component Analysis (PCA)
+* **Machine Learning Clustering:**
+    * K-Means
+    * Agglomerative Clustering
+    * Gaussian Mixture Model
+
+![Iris Flower Species](https://github.com/user-attachments/assets/2aca9be8-8bed-4762-bf2a-f62cdb603694)
+_Species of Iris being classified._
 
 ## [Wordle](https://github.com/zach-chase/Personal-Portfolio/tree/main/Wordle)
 Jumping on the 2022 trend of Wordle, this project explores the basics of the word guessing game in two core ways:
