@@ -85,12 +85,23 @@ Libraries and skills used:
 * defaultdict
 
 
-## [PageRank Algorithm](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
-One of my very first projects in Python, this project implements the PageRank Algorithm, which was developed in 1998 by Google's founders Sergey Brin and Larry Page to rank websites. My project implements their algorithm and applies it to rank websites and NCAA Men's Basketball Teams
+## [PageRank Algorithm with March Madness](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
+Developed by Sergey Brin and Larry Page in 1998, PageRank revolutionized search engines by ranking webpages based on link structures. It treats the web as a directed graph, using an adjacency matrix to iteratively compute importance scores via eigenvector centrality. This project implemented the algorithm in Python and applied it to NCAA Men’s Basketball, treating games as directional links between teams to rank their relative strength to predict March Madness brackets.
 Libraries and skills used:
 * Numpy
-* Csv
-* PageRank algorithm
+* Algorithm Design
+* Graph Theory
+* Markov Chains
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fc2c4c71-bbbc-44cb-950a-cf854b4adb50" width="480" height="480" alt="Directed Graph of Big 10 2017-2018 Season">
+</p>
+<p align="center">
+  <em>Figure: Directed graph representation of the Big 10 conference for the 2017-2018 NCAA basketball season. Nodes represent teams, and directed edges indicate game outcomes. Image sourced from the paper: "Application of PageRank Algorithm to Division I NCAA Men’s Basketball as Bracket Formation and Outcome Predictive Utility" by Matthews, McClain, Smith, and Tennant (2021), Journal of Sports Analytics, vol. 7, no. 1, pp. 1-9. DOI: 10.3233/JSA-200425.</em>
+</p>
+
+
+
 
 ## [Monte Carlo Integration](https://github.com/zach-chase/Personal-Portfolio/tree/main/MonteCarloIntegration)
 Estimating integrals using Monte Carlo Integration
