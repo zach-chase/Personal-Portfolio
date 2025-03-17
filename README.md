@@ -66,24 +66,18 @@ This project explores the Iris dataset through the lens of unsupervised machine 
 _Species of Iris being classified._
 
 ## [Wordle](https://github.com/zach-chase/Personal-Portfolio/tree/main/Wordle)
-Jumping on the 2022 trend of Wordle, this project explores the basics of the word guessing game in two core ways:
-1. play
-* Create a game of Wordle to play, while giving suggestions of the next best word to use
-2. solve
-* Solve a game of Wordle by inputting your guessed word and the resulting pattern to receive a suggested word to guess
+Built a Python-powered Wordle solver and player that optimizes guesses using entropy-based decision-making. By analyzing word frequency and pattern elimination, it calculates the most informative guesses—maximizing the reduction of possible words in each round. Whether you're playing manually or letting the AI assist, this tool helps crack the puzzle efficiently. This game has both an interactive game version and an AI-solver version.
 
-The example of running the play function is seen below.
-
+**Tools and Techniques Used:**
+* Entropy
+* argparse
+* json
+* defaultdict
+* wordfreq
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/65054541/156868304-59d789dd-c58c-40f4-8f26-3b3fce6008cf.gif" />
 </p>
-
-Libraries and skills used:
-* argparse
-* json
-* defaultdict
-
 
 ## [PageRank Algorithm with March Madness](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
 Developed by Sergey Brin and Larry Page in 1998, PageRank revolutionized search engines by ranking webpages based on link structures. It treats the web as a directed graph, using an adjacency matrix to iteratively compute importance scores via eigenvector centrality. This project implemented the algorithm in Python and applied it to NCAA Men’s Basketball, treating games as directional links between teams to rank their relative strength to predict March Madness brackets.
