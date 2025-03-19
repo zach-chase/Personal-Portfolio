@@ -81,7 +81,7 @@ Built a Python-powered Wordle solver and player that optimizes guesses using ent
 
 ## [PageRank Algorithm with March Madness](https://github.com/zach-chase/Personal-Portfolio/blob/main/PageRank/PageRank.ipynb)
 Developed by Sergey Brin and Larry Page in 1998, PageRank revolutionized search engines by ranking webpages based on link structures. It treats the web as a directed graph, using an adjacency matrix to iteratively compute importance scores via eigenvector centrality. This project implemented the algorithm in Python and applied it to NCAA Men’s Basketball, treating games as directional links between teams to rank their relative strength to predict March Madness brackets.
-Libraries and skills used:
+**Libraries and skills used:**
 * Numpy
 * Algorithm Design
 * Graph Theory
@@ -98,8 +98,9 @@ Libraries and skills used:
 
 
 ## [Monte Carlo Integration](https://github.com/zach-chase/Personal-Portfolio/tree/main/MonteCarloIntegration)
-Estimating integrals using Monte Carlo Integration
-Libraries and skills used:
+Monte Carlo integration uses randomness to approximate complex integrals, making it a useful tool for high-dimensional problems. In this project, I apply it to estimate the volume of n-dimensional spheres, compute definite integrals, and evaluate errors in the method. A key highlight is an animated visualization that demonstrates how random sampling can approximate 𝜋.
+
+**Libraries and skills used:**
 * Scipy
 * Numpy
 * Matplotlib
