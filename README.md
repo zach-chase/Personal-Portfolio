@@ -104,6 +104,10 @@ Libraries and skills used:
 * Numpy
 * Matplotlib
 
+<p align="center">
+  <img src="https://github.com/zach-chase/Personal-Portfolio/blob/main/MonteCarloIntegration/animated_circle.gif" />
+</p>
+
 ## [Image Segmentation](https://github.com/zach-chase/Personal-Portfolio/tree/main/ImageSegmentation)
 Application of graph theory
 
