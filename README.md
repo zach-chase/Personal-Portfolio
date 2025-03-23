@@ -110,7 +110,13 @@ Monte Carlo integration uses randomness to approximate complex integrals, making
 </p>
 
 ## [Image Segmentation](https://github.com/zach-chase/Personal-Portfolio/tree/main/ImageSegmentation)
-Application of graph theory
+Designed an image segmentation tool that helps analyze images by separating key regions using spectral clustering. The algorithm models images as graphs, applying Laplacian matrices and eigenvector decomposition to detect meaningful divisions. This method is useful for object detection, preprocessing, and pattern recognition.
+
+**Libraries Used:**
+* NumPy
+* SciPy
+* Matplotlib
+* ImageIO
 
 ## [Decision Tree Heart Attack](https://github.com/zach-chase/Personal-Portfolio/tree/main/Decision_Tree_Heart_Attack)
 Stats project
