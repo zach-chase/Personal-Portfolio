@@ -119,7 +119,13 @@ Designed an image segmentation tool that helps analyze images by separating key 
 * ImageIO
 
 ## [Decision Tree Heart Attack](https://github.com/zach-chase/Personal-Portfolio/tree/main/Decision_Tree_Heart_Attack)
-Stats project
+Built a heart attack prediction model using R, applying classification trees to identify at-risk individuals based on health data. Performed exploratory data analysis (EDA) to uncover patterns, and used feature importance metrics to highlight key risk factors contributing to heart attacks.
+
+**Libraries Used:**
+* dplyr
+* ggplot2
+* rpart
+* rpart.plot
 
 ## [PCA_LSI](https://github.com/zach-chase/Personal-Portfolio/tree/main/PCA_LSI)
 This project explores the basics of Principal Component Analysis (PCA) and Latent Semantic Indexing (LSI). Here we analyze the Iris dataset and compare State of the Union addresses to determine similarity.
