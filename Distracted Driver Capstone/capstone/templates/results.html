@@ -1,0 +1,22 @@
+<form method="post" enctype="multipart/form-data">
+    <font color = FFFFFF>{% csrf_token %}</font> 
+    <input type="file" name="sentFile" />
+    <input type="submit" name="submit" value="Upload" />
+</form>
+
+<html>
+<body style="background-color:#000000;">
+
+    <h1><center><font color = FFFFFF>Prediction: {{main_guess}}</font></center></h1>
+    <h1><center><font color = FFFFFF>Probability: {{main_percent}}</font></center></h1>
+
+
+    <center><img src={{image}}></center><br>
+
+    <h1><center><font color = FFFFFF>All Probabilities:</font></center></h1>
+    {% for i, v in answer %}
+        <div><center><font color = FFFFFF>{{ i }}: {{ v }}</font></center></div>
+    {% endfor %}
+
+</body>
+</html>

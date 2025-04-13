@@ -1,0 +1,24 @@
+.
+├── Pipfile
+├── Pipfile.lock
+├── capstone
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── my_model
+│   ├── settings.py
+│   ├── templates
+│   │   ├── results.html
+│   │   └── start.html
+│   ├── urls.py
+│   ├── views.py
+│   └── wsgi.py
+├── db.sqlite3
+├── driving_images
+├── layout.txt
+├── manage.py
+├── media
+├── requirements.txt
+└── templates
+    └── homepage.html
+
+8 directories, 29 files
